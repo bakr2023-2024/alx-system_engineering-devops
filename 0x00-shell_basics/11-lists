@@ -1,2 +1,2 @@
 #!/bin/bash
-ls $PWD $PWD/.. /boot -laU
+ls . .. /boot -laU
