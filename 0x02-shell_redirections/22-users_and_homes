@@ -1,0 +1,2 @@
+#!/bin/bash
+cut /etc/passwd --delimiter=: -f 1,6|sort
