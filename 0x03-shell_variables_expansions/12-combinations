@@ -1,2 +1,2 @@
 #!/bin/bash
-printf "%-4s\n" {a..z}{a..z}|grep -vw "oo"
+printf "%s\n" {a..z}{a..z}|grep -vw "oo"
