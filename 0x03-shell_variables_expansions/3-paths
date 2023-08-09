@@ -1,2 +1,2 @@
 #!/bin/bash
- tr -dc : <<<"$PATH" | wc -c
+ find /usr -type d|wc -l
