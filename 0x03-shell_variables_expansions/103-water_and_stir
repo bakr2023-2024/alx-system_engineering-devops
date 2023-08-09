@@ -1,0 +1,2 @@
+#!/bin/bash
+echo $(($(echo $WATER $STIR | tr "water" "01234" | tr "stir." "01234"|tr " " "+")))|tr "01234567" "bestchol"
